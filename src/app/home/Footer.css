@@ -1,0 +1,124 @@
+footer {
+    margin-top: 42px;
+    background-color: #0c1230;
+    color: white;
+    padding-top: 20px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+        "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.address p{
+    font-size: 18px;
+}
+.social-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.social-box {
+    background: linear-gradient(165deg, rgb(0, 53, 105) 38%, rgb(104, 189, 217));
+    height: 80px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-box span {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 240px;
+    padding: 0 20px;
+}
+
+.address h4 {
+    color: #33a4dd;
+    margin-bottom: 5px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.location {
+    display: flex;
+    margin-top: -20px;
+}
+.location h4,p{
+    
+}
+.location-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #33a4dd;
+}
+
+.email-box,
+.phone-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-card,
+.phone-card {
+    background-color: #67a9d3;
+    padding: 25px;
+    text-align: center;
+    width: 80%;
+    border-radius: 4px;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.email-card p{
+    font-size: 20px;
+}
+.phone-card p{
+    margin-left: 4px;
+    font-size: 20px;
+}
+.email-icon {
+    font-size: 28px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.phone-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.phone-icons i{
+    font-size: 28px;
+    padding-left: 12px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 0;
+    border-top: 1px solid #19204f;
+    color: #33a4dd;
+    background: linear-gradient(rgb(10, 23, 68), rgb(11, 20, 53));
+    font-size: 18px;
+}

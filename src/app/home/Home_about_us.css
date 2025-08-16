@@ -1,0 +1,115 @@
+.join-our-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    background: linear-gradient(165deg, rgb(255, 255, 255), rgb(104, 189, 217));
+}
+
+.textcontainer {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.know_more {
+    border-radius: 30px;
+    padding: 14px 28px;
+    border: none;
+}
+
+.know_more span {
+    color: rgb(10, 20, 54);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.know_more i {
+    margin-left: 14px;
+    font-size: 16px ;
+}
+.text-box {
+    height: 600px;
+    width: 100%;
+    background: url('../../assets/images/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: white; 
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text-box h3{
+    font-size: 48px;
+    margin-top: -32px;
+    font-weight: 500;
+}
+.inner-text {
+    margin-top: -20px;
+    padding: 28px;
+    height: 280px;
+    width: 680px;
+    max-width: 800px;
+    background: rgba(11, 20, 53, 0.92); /* semi-transparent overlay for readability */
+    border-radius: 12px;
+}
+.text-content{
+    padding: 12px;
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.5;
+}
+.inner-text p {
+    width: 600px;
+}
+
+.inner-text button {
+    margin-left:30%;
+    margin-top: -24px;
+    font-size: 16px;
+    padding: 14px 32px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.inner-text i{
+    font-size: 18px;
+    margin-left: 12px;
+}
+
+@media (max-width: 992px) {
+    .textcontainer {
+        font-size: 24px;
+    }
+    .text-box h3 {
+        font-size: 36px;
+    }
+    .text-content {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .join-our-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .textcontainer {
+        font-size: 20px;
+    }
+    .text-box h3 {
+        font-size: 28px;
+    }
+    .inner-text {
+        padding: 16px;
+        height: auto;
+    }
+    .text-content {
+        font-size: 14px;
+    }
+}

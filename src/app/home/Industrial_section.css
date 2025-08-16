@@ -1,0 +1,97 @@
+.industrial-section {
+    height: auto;
+    width: 100%;
+    background-color: rgb(242, 251, 254);
+    padding-bottom: 40px;
+}
+
+.container-fluid2 {
+    height: 350px;
+    width: 100%;
+    max-width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -70px;
+}
+
+.industry-title {
+    margin-left: 550px;
+    margin-top: 0;
+}
+
+.industry-title h1 {
+    font-size: 36px;
+    color: rgb(2, 145, 204);
+    font-weight: 600;
+    margin-top: -24px;
+}
+
+.header-1 {
+    margin-left: 24%;
+}
+
+.industry-types {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    width: 98%;
+    margin: 20px auto;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.software-industry{
+    flex: 1;
+    background-color: rgb(13, 145, 202);
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-industry{
+    flex: 1;
+    background-color: rgb(42, 165, 220);
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.software-consulting{
+    flex: 1;
+    background-color: rgb(26, 179, 244);
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graphic-design {
+    flex: 1;
+    background-color: rgb(60, 195, 253);
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98%;
+}
+
+.containerbox h5 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.containerbox img {
+    height: auto;
+    max-width: 220px;
+    margin-left: 15px;
+}

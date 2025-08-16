@@ -1,0 +1,166 @@
+.NavHead {
+  background-color: rgb(0, 53, 107);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+
+.contact {
+  margin-left: 12px;
+  font-weight: 900;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+}
+
+.whatsapp {
+  font-weight: 500;
+  color: #fff;
+  font-size: 22px;
+  margin-right: 12px;
+  font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ApplyButton {
+  margin-left: 12px;
+  background-color: rgb(234, 85, 43);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+.Navthings {
+  background: linear-gradient(to right, rgb(241, 243, 244), rgb(110, 203, 231));
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Nav .symbollogo {
+  height: 55px;
+}
+
+.titlelogo {
+  height: 54px;
+}
+
+.dropdown-menu li{
+  list-style: none;
+}
+
+.Services {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  margin: 12px 0;
+  padding: 0;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: rgb(0, 53, 107);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .Services {
+    gap: 20px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .NavHead {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+  }
+
+  .Navthings {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .Services {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .whatsapp {
+    font-size: 14px;
+  }
+
+  .ApplyButton {
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 13px;
+  }
+
+  .Services {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .Navthings {
+    padding: 10px;
+  }
+}
+
+.Services {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  display: none;
+  min-width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  z-index: 100;
+}
+
+.dropdown-menu a{
+  padding: 10px 15px;
+  display: flex;
+  color: #000;
+  list-style: none;
+  width: 200px;
+  padding-bottom: 18px;
+}
+
+.dropdown-menu a:hover {
+  background: rgb(78, 169, 243);
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}

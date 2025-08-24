@@ -1,0 +1,84 @@
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;    
+    
+}
+
+.services {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 3rem 2rem;
+}
+
+.services .row {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.service-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.service-card {   
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+.service-card h5 {
+    font-size: 1.55rem;
+    margin-bottom: 1rem;
+    color: #1294d9;
+}
+
+
+.service-card p {    
+    font-size:1.1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+
+.box-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 992px) {
+    .services .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box-align {
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .service-card {
+        padding: 1.5rem;
+    }
+
+    .service-card h5 {
+        font-size: 1.2rem;
+    }
+
+    .service-card p {
+        font-size: 1rem;
+    }
+}

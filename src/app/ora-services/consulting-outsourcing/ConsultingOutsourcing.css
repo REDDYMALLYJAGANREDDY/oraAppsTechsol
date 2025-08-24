@@ -1,0 +1,14 @@
+.wrap-outsourcing{
+    background-image: url(/src/assets/images/outsourcing-bg.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 10px;
+}
+.white-box{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+}

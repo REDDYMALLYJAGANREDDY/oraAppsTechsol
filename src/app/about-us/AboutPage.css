@@ -1,0 +1,28 @@
+.img-fluid{
+    height: 100%;
+    width: 100%;
+    
+}
+.about-cta {
+    background: #0b1435;
+    color: #fff;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--lt-blue);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #053b8b;
+}
+

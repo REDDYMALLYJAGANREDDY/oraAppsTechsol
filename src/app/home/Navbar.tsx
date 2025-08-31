@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="NavHead">
         <div className="contact">
           We consistently recruit on these technologies
-          <a href="#" className="ApplyButton">
+          <a href="/jobs-listing" className="ApplyButton">
             Apply
           </a>
         </div>

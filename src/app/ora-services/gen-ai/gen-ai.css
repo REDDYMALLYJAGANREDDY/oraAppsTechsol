@@ -1,0 +1,53 @@
+.services {
+    background-color: #f8f9fa;
+}
+
+.service-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.service-icon img {
+    width: 80px;
+    height: 80px;
+    fill: #6c63ff;
+}
+
+.text-primary {
+    color: #6c63ff !important;
+}
+
+.main-box {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 360px;
+    border: solid 1px #c3c3c3;
+    border-radius: 5px;
+    min-height: 300px;
+    background: rgb(2, 186, 204);
+    background: linear-gradient(327deg, rgba(2, 186, 204, 1) 49%, rgba(43, 171, 238, 1) 100%);
+}
+
+.content-box-Sw {
+    padding: 15px 0;
+}
+
+.services-wrap-soft {
+    background: rgb(2, 111, 204);
+    background: linear-gradient(327deg, rgba(2, 111, 204, 1) 49%, rgba(43, 132, 238, 0.5550595238095238) 100%);
+}
+
+.box-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
